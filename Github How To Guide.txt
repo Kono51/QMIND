@@ -1,0 +1,15 @@
+<u> How To Github </u>
+	General
+		Directory: use command 'dir' to get git directory information
+			i.e:
+			
+		    Directory: C:\Users\Connor Blandford\Documents\GitHub\QMIND
+			
+			
+			Mode                LastWriteTime         Length Name
+			----                -------------         ------ ----
+			-a----         3/9/2016   7:25 PM             94 README.md	
+		
+	Pulling
+	Pushing
+	
