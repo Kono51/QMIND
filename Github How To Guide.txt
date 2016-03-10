@@ -1,5 +1,6 @@
-<u> How To Github </u>
-	General
+ How To Github 
+	## Windows commands, different for Linux and OS(yosimite,osx, etc.)
+	1.General
 		Directory: use command 'dir' to get git directory information
 			i.e:
 			
@@ -9,7 +10,38 @@
 			Mode                LastWriteTime         Length Name
 			----                -------------         ------ ----
 			-a----         3/9/2016   7:25 PM             94 README.md	
-		
-	Pulling
-	Pushing
+		Status: use command 'git status'
+	2.Pulling
+	3.Pushing
+		1.Add: use command 'git add .\'FILENAME.filetype':
+			git add .\'Github How To Guide.txt'
+			
+			Add will add the specified file to the local repos
+			
+			
+		2.Commit: use command 'git commit -m "MESSAGE TO DISPLAY IN REPOS":
+			git commit -m "Add Windows Github How To Guide.md to repository"
+			[master 9b21a05] Add Windows Github How To Guide.md to repository
+			 1 file changed, 15 insertions(+)
+			 create mode 100644 Github How To Guide.txt	
+			 
+			 commit will stage all modified files in the local repos to be
+			 added to the original branch.
+			 
+			 
+		3.Push: use command 'git push origin master':
+			git push origin master
+			Warning: Permanently added 'github.com,192.30.252.128' (RSA) to the list of known hosts.
+			Counting objects: 3, done.
+			Delta compression using up to 4 threads.
+			Compressing objects: 100% (3/3), done.
+			Writing objects: 100% (3/3), 548 bytes | 0 bytes/s, done.
+			Total 3 (delta 0), reused 0 (delta 0)
+			To git@github.com:Kono51/QMIND.git
+			d642294..9b21a05  master -> master
 	
+			push checks that the version in your local repos is compatible with
+			the master branch/where ever you are pushing to.  This requires you 
+			to specify the desired location, typically this will be 'origin master'.
+			
+			
