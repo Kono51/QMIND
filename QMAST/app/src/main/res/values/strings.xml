@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">QMAST</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_diagnostics">Diagnostics</string>
+    <string name="title_activity_autonomous">Autonomous</string>
+    <string name="title_activity_cell_control">CellControl</string>
+    <string name="title_activity_rc">RC</string>
+    <string name="title_activity_stationary">Stationary</string>
+</resources>
